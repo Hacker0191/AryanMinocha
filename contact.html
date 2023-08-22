@@ -229,6 +229,13 @@ body::after {
   }
 }
 </style>
+<script>
+  window.addEventListener('load', function() {
+  setTimeout(function() {
+    window.scrollTo(0, 0);
+  }, 0);
+});
+ </script>
 </head>
 <body>
 
@@ -288,6 +295,8 @@ body::after {
 </nav>
 <!-- Navigation Menu Ends -->
   
+
+
 <section class="sectionn">
     
     <div class="section-header">
@@ -339,36 +348,37 @@ body::after {
             
             <div class="contact-info-content">
               <h4>Email</h4>
-             <p style="color: black;">hello@aryanminocha.com</p>
+             <p style="color: black;">contact@aryanminocha.com</p>
             </div>
           </div>
         </div>
         
         <div class="contact-form">
-          <form action="" id="contact-form">
+          <form  action="https://formspree.io/f/mvojagey"
+          method="POST" id="contact-form">
             <h2>Send Message</h2>
             <div class="input-box">
-              <input type="text" required="true" name="">
+              <input type="text" name="Name" required>
               <span>Full Name</span>
             </div>
             
             <div class="input-box">
-                <input type="number" required="true" name="">
+                <input type="number" name="Number" required>
                 <span>Phone Number</span>
               </div>
 
             <div class="input-box">
-              <input type="email" required="true" name="">
+              <input type="email" name="Email" required>
               <span>Email</span>
             </div>
             
             <div class="input-box">
-              <textarea required="true" name=""></textarea>
+              <textarea name="Message" required></textarea>
               <span>Type your Message...</span>
             </div>
             
             <div class="input-box">
-              <input type="submit" value="Send" name="">
+              <input type="submit" value="Send" name="Sumbit">
             </div>
           </form>
         </div>
@@ -421,7 +431,7 @@ body::after {
               <div class="">
                   <h6 class="footer-heading text-uppercase text-white">Contact Us</h6>
                   <p class="contact-info mt-4">Feel free to Contact Us !</p> <br>
-                  <a href="mailto:hello@aryanminocha.com" class="contact-info">hello@aryanminocha.com</a><br><br>
+                  <a href="mailto:contact@aryanminocha.com" class="contact-info">contact@aryanminocha.com</a><br><br>
                   <a href="tel:+919690012349"class="contact-info">+91 96900 12349</a>
                   <div class="mt-5">
                       <ul class="list-inline"  style="margin-top: -20px;"> 
